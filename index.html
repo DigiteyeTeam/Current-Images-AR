@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Table</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <style>
+        .image-cell img {
+            width: 125px;
+            height: 125px;
+        }
+
+        @media (max-width: 600px) {
+            .image-cell img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        table.dataTable thead th,
+        table.dataTable tfoot th {
+            font-size: 14px;
+        }
+
+        table.dataTable tbody td {
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button id="buttonA">Gallery</button>
+        <button id="buttonB">Thevata</button>
+    </div>
+    <table id="imageTable" class="display">
+        <thead>
+            <tr>
+                <th>ชื่อ</th>
+                <th>รูปภาพ</th>
+                <th>แสดง</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be dynamically added here -->
+        </tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            let table;
+
+            function loadImages(folder) {
+                $.getJSON(`data_images/data_${folder}.json`, function(tableData) {
+                    if (table) {
+                        table.clear();
+                        table.rows.add(tableData);
+                        table.draw();
+                    } else {
+                        table = $('#imageTable').DataTable({
+                            data: tableData,
+                            columns: [
+                                { data: 'name' },
+                                { 
+                                    data: 'image',
+                                    render: function(data, type, row) {
+                                        return '<div class="image-cell"><img src="'+data+'" alt="'+row.name+'"></div>';
+                                    }
+                                },
+                                { 
+                                    data: 'show',
+                                    render: function(data, type, row) {
+                                        return '<input type="checkbox" '+ (data ? 'checked' : '') +'>';
+                                    }
+                                }
+                            ],
+                            responsive: true
+                        });
+                    }
+                });
+            }
+
+            $('#buttonA').on('click', function() {
+                loadImages('gallery');
+            });
+
+            $('#buttonB').on('click', function() {
+                loadImages('thevata');
+            });
+
+            // Load default images
+            loadImages('gallery');
+        });
+    </script>
+</body>
+</html>
+

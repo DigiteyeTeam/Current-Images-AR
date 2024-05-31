@@ -1,312 +1,534 @@
 [
   {
-    "name": "Image 1",
+    "name": "artGal_10_scaled",
     "image": "images/gallery/artGal_10_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 2",
+    "name": "artGal_11_scaled",
     "image": "images/gallery/artGal_11_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 3",
+    "name": "artGal_12_scaled",
     "image": "images/gallery/artGal_12_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 4",
+    "name": "artGal_13_scaled",
     "image": "images/gallery/artGal_13_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 5",
+    "name": "artGal_14_scaled",
     "image": "images/gallery/artGal_14_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 6",
+    "name": "artGal_15_scaled",
     "image": "images/gallery/artGal_15_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 7",
+    "name": "artGal_16_scaled",
     "image": "images/gallery/artGal_16_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 8",
+    "name": "artGal_17_scaled",
     "image": "images/gallery/artGal_17_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 9",
+    "name": "artGal_18_scaled",
     "image": "images/gallery/artGal_18_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 10",
+    "name": "artGal_19_scaled",
     "image": "images/gallery/artGal_19_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 11",
+    "name": "artGal_1_scaled",
     "image": "images/gallery/artGal_1_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 12",
+    "name": "artGal_20_scaled",
     "image": "images/gallery/artGal_20_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 13",
+    "name": "artGal_21_scaled",
     "image": "images/gallery/artGal_21_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 14",
+    "name": "artGal_22_scaled",
     "image": "images/gallery/artGal_22_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 15",
+    "name": "artGal_23_scaled",
     "image": "images/gallery/artGal_23_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 16",
+    "name": "artGal_24_scaled",
     "image": "images/gallery/artGal_24_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 17",
+    "name": "artGal_25_scaled",
     "image": "images/gallery/artGal_25_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 18",
+    "name": "artGal_26_scaled",
     "image": "images/gallery/artGal_26_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 19",
+    "name": "artGal_27_scaled",
     "image": "images/gallery/artGal_27_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 20",
+    "name": "artGal_28_scaled",
     "image": "images/gallery/artGal_28_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 21",
+    "name": "artGal_29_scaled",
     "image": "images/gallery/artGal_29_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 22",
+    "name": "artGal_2_scaled",
     "image": "images/gallery/artGal_2_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 23",
+    "name": "artGal_30_scaled",
     "image": "images/gallery/artGal_30_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 24",
+    "name": "artGal_31_scaled",
     "image": "images/gallery/artGal_31_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 25",
+    "name": "artGal_32_scaled",
     "image": "images/gallery/artGal_32_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 26",
+    "name": "artGal_33_scaled",
     "image": "images/gallery/artGal_33_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 27",
+    "name": "artGal_34_scaled",
     "image": "images/gallery/artGal_34_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 28",
+    "name": "artGal_35_scaled",
     "image": "images/gallery/artGal_35_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 29",
+    "name": "artGal_36_scaled",
     "image": "images/gallery/artGal_36_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 30",
+    "name": "artGal_37_scaled",
     "image": "images/gallery/artGal_37_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 31",
+    "name": "artGal_38_scaled",
     "image": "images/gallery/artGal_38_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 32",
+    "name": "artGal_39_scaled",
     "image": "images/gallery/artGal_39_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 33",
+    "name": "artGal_3_scaled",
     "image": "images/gallery/artGal_3_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 34",
+    "name": "artGal_40_scaled",
     "image": "images/gallery/artGal_40_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 35",
+    "name": "artGal_41_scaled",
     "image": "images/gallery/artGal_41_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 36",
+    "name": "artGal_42_scaled",
     "image": "images/gallery/artGal_42_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 37",
+    "name": "artGal_43_scaled",
     "image": "images/gallery/artGal_43_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 38",
+    "name": "artgal_44_scaled",
     "image": "images/gallery/artgal_44_scaled.jpg",
-    "show": true
+    "showNFC": true,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 39",
+    "name": "artgal_45_scaled",
     "image": "images/gallery/artgal_45_scaled.jpg",
-    "show": true
+    "showNFC": true,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 40",
+    "name": "artgal_46_scaled",
     "image": "images/gallery/artgal_46_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 41",
+    "name": "artgal_47_scaled",
     "image": "images/gallery/artgal_47_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 42",
+    "name": "artgal_48_scaled",
     "image": "images/gallery/artgal_48_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 43",
+    "name": "artgal_49_scaled",
     "image": "images/gallery/artgal_49_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 44",
+    "name": "artGal_4_scaled",
     "image": "images/gallery/artGal_4_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 45",
+    "name": "artgal_50_scaled",
     "image": "images/gallery/artgal_50_scaled.jpg",
-    "show": true
+    "showNFC": true,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 46",
+    "name": "artgal_51_scaled",
     "image": "images/gallery/artgal_51_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 47",
+    "name": "artgal_52_scaled",
     "image": "images/gallery/artgal_52_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 48",
+    "name": "artgal_53_scaled",
     "image": "images/gallery/artgal_53_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 49",
+    "name": "artgal_54_scaled",
     "image": "images/gallery/artgal_54_scaled.jpg",
-    "show": true
+    "showNFC": true,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 50",
+    "name": "artgal_55_scaled",
     "image": "images/gallery/artgal_55_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 51",
+    "name": "artgal_56_scaled",
     "image": "images/gallery/artgal_56_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 52",
+    "name": "artgal_57_scaled",
     "image": "images/gallery/artgal_57_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 53",
+    "name": "artgal_58_scaled",
     "image": "images/gallery/artgal_58_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 54",
+    "name": "artgal_59_scaled",
     "image": "images/gallery/artgal_59_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 55",
+    "name": "artGal_5_scaled",
     "image": "images/gallery/artGal_5_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 56",
+    "name": "artgal_60_scaled",
     "image": "images/gallery/artgal_60_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 57",
+    "name": "artgal_61_scaled",
     "image": "images/gallery/artgal_61_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 58",
+    "name": "artgal_62_scaled",
     "image": "images/gallery/artgal_62_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 59",
+    "name": "artgal_63",
+    "image": "images/gallery/artgal_63.jpg",
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
+  },
+  {
+    "name": "artgal_64",
+    "image": "images/gallery/artgal_64.jpg",
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
+  },
+  {
+    "name": "artgal_65",
+    "image": "images/gallery/artgal_65.jpg",
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
+  },
+  {
+    "name": "artgal_66",
+    "image": "images/gallery/artgal_66.jpg",
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
+  },
+  {
+    "name": "artgal_67",
+    "image": "images/gallery/artgal_67.jpg",
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
+  },
+  {
+    "name": "artgal_68",
+    "image": "images/gallery/artgal_68.jpg",
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
+  },
+  {
+    "name": "artgal_69",
+    "image": "images/gallery/artgal_69.jpg",
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
+  },
+  {
+    "name": "artGal_6_scaled",
     "image": "images/gallery/artGal_6_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 60",
+    "name": "artgal_70",
+    "image": "images/gallery/artgal_70.jpg",
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
+  },
+  {
+    "name": "artgal_71",
+    "image": "images/gallery/artgal_71.jpg",
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
+  },
+  {
+    "name": "artgal_72",
+    "image": "images/gallery/artgal_72.jpg",
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
+  },
+  {
+    "name": "artgal_73",
+    "image": "images/gallery/artgal_73.jpg",
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
+  },
+  {
+    "name": "artgal_74",
+    "image": "images/gallery/artgal_74.jpg",
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
+  },
+  {
+    "name": "artgal_75",
+    "image": "images/gallery/artgal_75.jpg",
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
+  },
+  {
+    "name": "artgal_76",
+    "image": "images/gallery/artgal_76.jpg",
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
+  },
+  {
+    "name": "artGal_7_scaled",
     "image": "images/gallery/artGal_7_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 61",
+    "name": "artGal_8_scaled",
     "image": "images/gallery/artGal_8_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 62",
+    "name": "artGal_9_scaled",
     "image": "images/gallery/artGal_9_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   }
 ]

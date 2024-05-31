@@ -12,7 +12,7 @@ function ensureDirectoryExistence(filePath) {
 
 function generateData(folderName) {
     const imageFolder = path.join(__dirname, folderName);
-    const outputFile = path.join(__dirname, `data_images/data_${folderName.split('/').pop()}.json`);
+    const outputFile = path.join(__dirname, `public/data_images/data_${folderName.split('/').pop()}.json`);
 
     fs.readdir(imageFolder, (err, files) => {
         if (err) {
@@ -20,12 +20,17 @@ function generateData(folderName) {
             return;
         }
 
-        const imageFiles = files.filter(file => /\.(jpg|jpeg|png|gif)$/i.test(file));
-        const tableData = imageFiles.map((file, index) => ({
-            name: `Image ${index + 1}`,
-            image: `${folderName}/${file}`,
-            show: true  // Set default to true
-        }));
+        const imageFiles = files.filter(file => /\.(jpg|jpeg|png|gif|png)$/i.test(file));
+        const tableData = imageFiles.map((file) => {
+            const fileNameWithoutExtension = path.parse(file).name;
+            return {
+                name: fileNameWithoutExtension,
+                image: `${folderName}/${file}`,
+                showNFC: false,    // Set default to true
+                showAndroid: true, // Set default to true
+                showApple: true   // Set default to true
+            };
+        });
 
         ensureDirectoryExistence(outputFile);
         fs.writeFileSync(outputFile, JSON.stringify(tableData, null, 2), 'utf-8');

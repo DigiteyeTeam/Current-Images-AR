@@ -1,102 +1,142 @@
 [
   {
-    "name": "Image 1",
+    "name": "juljit_08_scaled",
     "image": "images/thevata/juljit_08_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 2",
+    "name": "julti_10_scaled",
     "image": "images/thevata/julti_10_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 3",
+    "name": "julti_11_scaled",
     "image": "images/thevata/julti_11_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 4",
+    "name": "julti_12_scaled",
     "image": "images/thevata/julti_12_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 5",
+    "name": "julti_13_scaled",
     "image": "images/thevata/julti_13_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 6",
+    "name": "julti_14_scaled",
     "image": "images/thevata/julti_14_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 7",
+    "name": "julti_15_scaled",
     "image": "images/thevata/julti_15_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 8",
+    "name": "julti_16_scaled",
     "image": "images/thevata/julti_16_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 9",
+    "name": "julti_17_scaled",
     "image": "images/thevata/julti_17_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 10",
+    "name": "julti_18_scaled",
     "image": "images/thevata/julti_18_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 11",
+    "name": "julti_19_scaled",
     "image": "images/thevata/julti_19_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 12",
+    "name": "julti_20_scaled",
     "image": "images/thevata/julti_20_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 13",
+    "name": "julti_9_scaled",
     "image": "images/thevata/julti_9_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 14",
+    "name": "pang_1_scaled",
     "image": "images/thevata/pang_1_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 15",
+    "name": "pang_2_scaled",
     "image": "images/thevata/pang_2_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 16",
+    "name": "pang_3_scaled",
     "image": "images/thevata/pang_3_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 17",
+    "name": "pang_4_scaled",
     "image": "images/thevata/pang_4_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 18",
+    "name": "pang_5_scaled",
     "image": "images/thevata/pang_5_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 19",
+    "name": "pang_6_scaled",
     "image": "images/thevata/pang_6_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   },
   {
-    "name": "Image 20",
+    "name": "pang_7_scaled",
     "image": "images/thevata/pang_7_scaled.jpg",
-    "show": true
+    "showNFC": false,
+    "showAndroid": true,
+    "showApple": true
   }
 ]

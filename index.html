@@ -20,11 +20,44 @@
 
         table.dataTable thead th,
         table.dataTable tfoot th {
-            font-size: 14px;
+            font-size: 10px;
         }
 
         table.dataTable tbody td {
-            font-size: 12px;
+            font-size: 10px;
+        }
+
+        .display {
+            width: 100%;
+        }
+
+        .column-name {
+            width: 20%;
+        }
+
+        .column-image {
+            width: 20%;
+        }
+
+        .column-nfc {
+            width: 20%;
+        }
+
+        .column-android {
+            width: 20%;
+        }
+
+        .column-apple {
+            width: 20%;
+        }
+
+        /* Alternate row colors */
+        table.dataTable tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        table.dataTable tbody tr:nth-child(odd) {
+            background-color: #ffffff;
         }
     </style>
 </head>
@@ -32,13 +65,16 @@
     <div>
         <button id="buttonA">Gallery</button>
         <button id="buttonB">Thevata</button>
+        <button id="saveButton">Save Changes</button>
     </div>
     <table id="imageTable" class="display">
         <thead>
             <tr>
-                <th>ชื่อ</th>
-                <th>รูปภาพ</th>
-                <th>แสดง</th>
+                <th class="column-name">ชื่อ</th>
+                <th class="column-image">รูปภาพ</th>
+                <th class="column-nfc">NFC Tag</th>
+                <th class="column-android">Android</th>
+                <th class="column-apple">Apple</th>
             </tr>
         </thead>
         <tbody>
@@ -51,8 +87,10 @@
     <script>
         $(document).ready(function() {
             let table;
+            let currentFolder = 'gallery';
 
             function loadImages(folder) {
+                currentFolder = folder;
                 $.getJSON(`data_images/data_${folder}.json`, function(tableData) {
                     if (table) {
                         table.clear();
@@ -70,7 +108,19 @@
                                     }
                                 },
                                 { 
-                                    data: 'show',
+                                    data: 'showNFC',
+                                    render: function(data, type, row) {
+                                        return '<input type="checkbox" '+ (data ? 'checked' : '') +'>';
+                                    }
+                                },
+                                { 
+                                    data: 'showAndroid',
+                                    render: function(data, type, row) {
+                                        return '<input type="checkbox" '+ (data ? 'checked' : '') +'>';
+                                    }
+                                },
+                                { 
+                                    data: 'showApple',
                                     render: function(data, type, row) {
                                         return '<input type="checkbox" '+ (data ? 'checked' : '') +'>';
                                     }
@@ -82,6 +132,43 @@
                 });
             }
 
+            function saveChanges() {
+                const data = table.data().toArray().map(row => {
+                    row.showNFC = $(`#imageTable input[type="checkbox"]`).eq(row.DT_RowIndex * 3).prop('checked');
+                    row.showAndroid = $(`#imageTable input[type="checkbox"]`).eq(row.DT_RowIndex * 3 + 1).prop('checked');
+                    row.showApple = $(`#imageTable input[type="checkbox"]`).eq(row.DT_RowIndex * 3 + 2).prop('checked');
+                    return row;
+                });
+
+                console.log('Data to be sent:', data);
+
+                fetch('/api/saveToggle', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        folder: currentFolder,
+                        data: data
+                    })
+                })
+                .then(response => {
+                    console.log('Response status:', response.status);
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Parsed JSON:', data);
+                    alert(data.message);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('Error saving data: ' + error.message);
+                });
+            }
+
             $('#buttonA').on('click', function() {
                 loadImages('gallery');
             });
@@ -90,10 +177,11 @@
                 loadImages('thevata');
             });
 
+            $('#saveButton').on('click', saveChanges);
+
             // Load default images
             loadImages('gallery');
         });
     </script>
 </body>
 </html>
-

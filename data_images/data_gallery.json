@@ -530,5 +530,26 @@
     "showNFC": false,
     "showAndroid": true,
     "showApple": true
+  },
+  {
+    "name": "artgal_77_scaled",
+    "image": "images/gallery/artgal_77_scaled.jpg",
+    "showNFC": false,
+    "showAndroid": false,
+    "showApple": false
+  },
+  {
+    "name": "artgal_78_scaled",
+    "image": "images/gallery/artgal_78_scaled.jpg",
+    "showNFC": false,
+    "showAndroid": false,
+    "showApple": false
+  },
+  {
+    "name": "artgal_79_scaled",
+    "image": "images/gallery/artgal_79_scaled.jpg",
+    "showNFC": false,
+    "showAndroid": false,
+    "showApple": false
   }
 ]
